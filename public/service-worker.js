@@ -1,8 +1,8 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
-const iconSizes = ["72", "96", "128", "144", "152", "192", "384", "512"];
+const iconSizes = ["192", "512"];
 const iconFiles = iconSizes.map(
-  (size) => `/assets/images/icons/icon-${size}x${size}.png`
+  (size) => `/icons/icon-${size}x${size}.png`
 );
 const staticFilesToPreCache = [
   "/",
